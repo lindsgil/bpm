@@ -1,0 +1,26 @@
+.headers {
+  display: inline-block;
+  text-align: center;
+  font-family: Arial;
+}
+.lowers {
+  display: block;
+}
+
+.blinks {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 150px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+#header-one {
+  margin-right: 200px;
+}
+
+#header-two {
+  margin-right: 200px;
+}
