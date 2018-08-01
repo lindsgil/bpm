@@ -1,26 +1,97 @@
+
+@font-face {
+font-family: "Bauhaus";
+src: url("fonts/93.ttf");
+}
+
+@font-face {
+font-family: "BauhausDemi";
+src: url("fonts/demi.ttf");
+}
+
 .headers {
-  display: inline-block;
+  display: inline;
   text-align: center;
-  font-family: Arial;
+  font-family: "BauhausDemi";
+  font-size: 55px;
+}
+.bpm {
+  display: inline;
+  text-align: center;
+  font-family: "BauhausDemi";
+  font-size: 30px;
 }
 .lowers {
   display: block;
 }
 
+#container {
+  background-image: url("img/frame.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  top: 0;
+  left: 0;
+  width: 600px;
+}
+
 .blinks {
-  font-family: Arial;
+  font-family: "Bauhaus";
   font-weight: bold;
-  font-size: 150px;
+  font-size: 120px;
 }
 
 p {
   margin-top: 20px;
 }
 
-#header-one {
-  margin-right: 200px;
+#bpm-one {
+  margin-top: 120px;
+  position: absolute;
+  margin-left: 455px;
+}
+
+#bpm-two {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 455px;
+}
+
+#bpm-three {
+  margin-top: 430px;
+  position: absolute;
+  margin-left: 455px;
+}
+
+.headers {
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
 }
 
 #header-two {
-  margin-right: 200px;
+  margin-top: 250px;
+}
+
+#header-three {
+  margin-top: 410px;
+}
+
+.blinks {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#blink-two {
+  margin-top: 200px;
+}
+
+#blink-three {
+  margin-top: 360px;
 }
